@@ -1,0 +1,15 @@
+.contact {
+    @extend %toppad;
+    h3 {
+     margin: 36px;
+    }
+}
+
+.contact-details {
+    @extend %notextdec;
+    margin-bottom: 48px;
+        a {
+        color: $black;
+        font-weight:700;
+    }    
+}

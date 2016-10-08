@@ -1,0 +1,33 @@
+.footer-nav {
+  display: none;
+     @include tablet {
+         display: block;
+         li {
+            display: inline-block;
+            text-align: right;
+            margin: 16px;
+            float: right; 
+         }
+     }
+}
+
+.bottom-line {
+  margin: 0 5%;
+  border-top: 1px solid $silver;
+  font-weight: 700;  
+    a {
+  @extend %notextdec;
+  color: $black;
+  }
+}
+
+.footer-title {
+  float: left;
+}
+
+.back-to-top {
+  float: right;
+    @include tablet {
+       display: none;
+  }
+}

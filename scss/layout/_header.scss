@@ -1,0 +1,9 @@
+.main-header {
+  min-height: 72px;
+    @include desktop {
+        display: -webkit-flex;
+        -webkit-flex-wrap: wrap;; 
+        justify-content: space-between;  
+  }
+  
+}

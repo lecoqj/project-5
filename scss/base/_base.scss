@@ -1,0 +1,33 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: $stack-sans-serif;
+  line-height: 1.6;
+  background-color: $wild-sand;
+  color: $black;
+  margin: 0 5%;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2 {
+  font-size: $font-size-h2;
+  font-weight: 400;  
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: $font-size-h3;
+}
+
+img {
+  max-width: 90%;
+}

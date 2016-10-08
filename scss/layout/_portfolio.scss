@@ -1,0 +1,33 @@
+.portfolio {
+    background-color: $white;  
+    @extend %toppad; 
+    h3 {
+     margin: 48px;
+    }
+    p {
+     margin: 0 10% 5%;
+    }
+}
+
+@include tablet {
+
+    .first-row,
+    .second-row {
+        display: -webkit-flex;
+        -webkit-flex-wrap: wrap; 
+        justify-content: center;
+    }
+  
+    .col {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@include desktop {
+
+    .col {
+        height: 30%;
+        width: 30%;
+    }
+}

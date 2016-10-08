@@ -1,0 +1,22 @@
+@include tablet {   
+
+.profile {
+        display: -webkit-flex;
+        -webkit-flex-wrap: wrap; 
+        justify-content: center;
+    }
+  
+    .profile {
+        -webkit-flex-direction: row-reverse;
+    }
+  
+    .about-me {
+        padding: 0 2%;
+        max-width: 60%;
+    } 
+  
+    .profile-picture {
+        max-width: 40%;
+        margin-bottom: 48px;
+    }
+} 

@@ -1,0 +1,36 @@
+
+.main-nav {
+	margin-top: 5px;
+}
+
+.name a,
+.main-nav a {
+	display: block;
+	padding: 15px 15px;
+}
+
+.main-nav a {
+  font-weight:700;
+  color: $black;
+  text-transform: uppercase;
+  @extend %notextdec;
+   @include tablet {
+        background-color: $wild-sand;       
+    }
+}
+
+.main-nav a:hover {
+ color: $tarawera;
+}
+
+.main-nav li {
+  background-color: $white;
+  margin: 10px; 
+    @include tablet {
+        display:inline-block;        
+    }  
+}
+
+
+
+

@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #000;
+  margin: 0 5%;
+  text-align: center; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h2 {
+  font-size: 1.25em;
+  font-weight: 400; }
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1em; }
+
+img {
+  max-width: 90%; }
+
+.main-header {
+  min-height: 72px; }
+  @media (min-width: 1024px) {
+    .main-header {
+      display: -webkit-flex;
+      -webkit-flex-wrap: wrap;
+      justify-content: space-between; } }
+
+.main-nav {
+  margin-top: 5px; }
+
+.name a,
+.main-nav a {
+  display: block;
+  padding: 15px 15px; }
+
+.main-nav a {
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .main-nav a {
+      background-color: #f5f5f5; } }
+
+.main-nav a:hover {
+  color: #093a58; }
+
+.main-nav li {
+  background-color: #fff;
+  margin: 10px; }
+  @media (min-width: 768px) {
+    .main-nav li {
+      display: inline-block; } }
+
+.footer-nav {
+  display: none; }
+  @media (min-width: 768px) {
+    .footer-nav {
+      display: block; }
+      .footer-nav li {
+        display: inline-block;
+        text-align: right;
+        margin: 16px;
+        float: right; } }
+
+.bottom-line {
+  margin: 0 5%;
+  border-top: 1px solid #ccc;
+  font-weight: 700; }
+  .bottom-line a {
+    color: #000; }
+
+.footer-title {
+  float: left; }
+
+.back-to-top {
+  float: right; }
+  @media (min-width: 768px) {
+    .back-to-top {
+      display: none; } }
+
+.portfolio {
+  background-color: #fff; }
+  .portfolio h3 {
+    margin: 48px; }
+  .portfolio p {
+    margin: 0 10% 5%; }
+
+.contact h3 {
+  margin: 36px; }
+
+.contact-details {
+  margin-bottom: 48px; }
+  .contact-details a {
+    color: #000;
+    font-weight: 700; }
+
+@media (min-width: 768px) {
+  .first-row,
+  .second-row,
+  .profile {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    justify-content: center; }
+
+  .profile {
+    -webkit-flex-direction: row-reverse; }
+
+  .about-me {
+    padding: 0 2%;
+    max-width: 60%; }
+
+  .profile-picture {
+    max-width: 40%;
+    margin-bottom: 48px; }
+
+  .col {
+    height: 50%;
+    width: 50%; } }
+@media (min-width: 1024px) {
+  .col {
+    height: 30%;
+    width: 30%; } }
+.main-nav a, .bottom-line a, .contact-details {
+  text-decoration: none; }
+
+.portfolio, .contact {
+  padding-top: 24px; }
+
+/*# sourceMappingURL=application.css.map */
